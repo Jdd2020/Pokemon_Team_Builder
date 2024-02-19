@@ -10,8 +10,7 @@ National Dex,Pokemon Name,Type,Kanto Dex #,Kanto Dex #,New Dex #,Johto Dex #,Hoe
 (SwSh)","Crown Tund Dex #
 (SwSh)","Hisui Dex #
 (LA)","Paldea Dex #
-(SV)",HP,Attack,Defense,Special Attack,"Special
-Defense",Speed,Total,Type I,Type II,Ability I,Ability II,Hidden Ability,Height (ft),Height (m),Weight (lbs),Weight (kg),HP EVs,Attcak EVs,Defense EVs,Special Attack EVs,Special Defense EVs,Speed EVs,Experience Value,Catch Rate,Experience Growth,Base Friendship,Pokedex Color,Gender Ratio,Egg Cycles,Egg Group I,Egg Group II,Evolution Method
+(SV)",HP,Attack,Defense,Special Attack,Special Defense,Speed,Total,Type I,Type II,Ability I,Ability II,Hidden Ability,Height (ft),Height (m),Weight (lbs),Weight (kg),HP EVs,Attcak EVs,Defense EVs,Special Attack EVs,Special Defense EVs,Speed EVs,Experience Value,Catch Rate,Experience Growth,Base Friendship,Pokedex Color,Gender Ratio,Egg Cycles,Egg Group I,Egg Group II,Evolution Method
 1,Bulbasaur,Starter,1,1,226,231,,,,,,,80,,,,,,,,,,,,,,68,,,,45,49,49,65,65,45,318,Grass,Poison,Overgrow,,Chlorophyll,2′04″,0.7,15.2,6.9,,,,1,,,64,45,Med Slow,50,Green,M (87.5%),20,Monster,Grass,Lv. 16
 2,Ivysaur,Starter,2,2,227,232,,,,,,,81,,,,,,,,,,,,,,69,,,,60,62,63,80,80,60,405,Grass,Poison,Overgrow,,Chlorophyll,3′03″,1,28.7,13,,,,1,1,,142,45,Med Slow,50,Green,M (87.5%),20,Monster,Grass,Lv. 32
 3,Venusaur,Starter,3,3,228,233,,,,,,,82,,,,,,,,,,,,,,70,,,,80,82,83,100,100,80,525,Grass,Poison,Overgrow,,Chlorophyll,6′07″,2,220.5,100,,,,2,1,,263,45,Med Slow,50,Green,M (87.5%),20,Monster,Grass,

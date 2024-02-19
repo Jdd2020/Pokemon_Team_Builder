@@ -12,4 +12,6 @@ Features being worked on include the following:
 - View Stats
 - Suggest attributes
 
+Recommendations will first be based on typing and base stats, but further complexities will be added with the EV's.
+
 Further along in the process, program will be turned into a RESTful API and be accompanied by a web-app.

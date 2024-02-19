@@ -1,3 +1,5 @@
+from typing import Dict
+
 class pokemon:
     def __init__(self, input):
         self.index = input[0]

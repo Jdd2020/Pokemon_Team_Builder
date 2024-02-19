@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import pokemon
+import team
 
 class pokeBuilder:
     def __init__(self, gen_file) -> None:
@@ -11,35 +13,7 @@ class pokeBuilder:
         return df
     
     def init_team(self):
-        poke = self.get_poke_list()
-
-        print("Starters:")
-        print("1.", poke['Pokemon'][0])
-        print("2.", poke['Pokemon'][3])
-        print("3.", poke['Pokemon'][6])
-
-        start = input("Enter the number of the starter selected: ")
-
-        while not start.isnumeric() or int(start) not in [1,2,3]:
-            print("Invalid Input")
-            start = input("Enter the number of the starter selected: ")
-
-        pIndex = 0
-        match int(start):
-            case 1:
-                pIndex = 0
-            case 2:
-                pIndex = 3
-            case 3:
-                pIndex = 6
-
-
-        select = list(poke.iloc[pIndex + 2]) 
-
-        team = {}
-        team[select[1]]  = select  
-        
-        return team
+        pass
     
     def print_team(self):
         team = self.get_team()

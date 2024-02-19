@@ -62,6 +62,6 @@ class pokeBuilder:
 
 
 if __name__ == "__main__":
-    pkB = pokeBuilder("all_poke_data.csv")
+    pkB = pokeBuilder("data/all_poke_data.csv")
     #pkB.print_team()
     print(pkB.get_poke_list().head(20))

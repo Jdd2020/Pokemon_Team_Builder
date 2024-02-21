@@ -1,12 +1,13 @@
 import pandas as pd
 import numpy as np
-import pokemon
-import team
+import pokemon as pk
+import team as tm
 
 class pokeBuilder:
     def __init__(self, gen_file) -> None:
         self.poke_list = self.load_pokemon(gen_file)
-        #self.team = self.init_team()
+        starter = pk.pokemon(list(self.poke_list.iloc[0]))
+        self.team = tm.team(starter)
 
     def load_pokemon(self, gen_file):
         df = pd.read_csv(gen_file)
@@ -16,14 +17,13 @@ class pokeBuilder:
         pass
     
     def print_team(self):
-        team = self.get_team()
         i = 1
-        print("Pokemon, HP, Attack, Defense, Speed, Special, Total, Average")
-        for poke in team:
-            print(str(i) + ". " + str(team[poke][2]) + " " + str(team[poke][3]) + " " + 
-                  str(team[poke][4]) + " " + str(team[poke][5]) + " " + 
-                  str(team[poke][6]) + " " + str(team[poke][7]) + " " + 
-                  str(team[poke][8]))
+        currTeam = self.team.get_team()
+
+        print("# Pokemon    HP ATK DEF spATK spDEF SPD")
+        for pokeName in currTeam:
+            poke = currTeam[pokeName]
+            print(i, pokeName, poke.get_hp(), poke.get_atk(), poke.get_def(), poke.get_spAtk(), poke.get_spDef(), poke.get_spd())
     
     def get_poke_list(self):
         return self.poke_list
@@ -36,6 +36,5 @@ class pokeBuilder:
 
 
 if __name__ == "__main__":
-    pkB = pokeBuilder("data/all_poke_data.csv")
-    #pkB.print_team()
-    print(pkB.get_poke_list().head(20))
+    pkB = pokeBuilder("src/data/all_poke_data.csv")
+    pkB.print_team()

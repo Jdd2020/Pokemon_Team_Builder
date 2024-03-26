@@ -1,0 +1,13 @@
+.card {
+    border-color: white;
+    border-style: solid;
+    border-radius: 25px;
+    height: 5%;
+    width: 10%;
+    color: white;
+}
+
+img {
+    height: 2%;
+    width: 2%;
+}

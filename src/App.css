@@ -1,0 +1,121 @@
+.App {
+  
+}
+
+.userForm {
+  padding-left: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoScreen{
+  display: flex;
+  align-items: center;
+}
+
+.pokemon{
+  align-items: center;
+  display: flex;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.baseStats{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: azure;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.baseStats div {
+  margin-top: 5%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hp{
+  background-color: rgb(80, 153, 6);
+  height: 50px;
+  width: 100px;
+
+}
+
+.attack{
+  background-color: crimson;
+  height: 50px;
+  width: 100px;
+}
+
+.defense{
+  background-color: cornflowerblue;
+  height: 50px;
+  width: 100px;
+}
+
+.spAttack{
+  background-color: coral;
+  height: 50px;
+  width: 100px;
+}
+
+.spDefense{
+  background-color: blueviolet;
+  height: 50px;
+  width: 100px;
+}
+
+.speed{
+  background-color: goldenrod;
+  height: 50px;
+  width: 100px;
+}
+
+.title img {
+  height: 250px;
+  width: 250px;
+}
+
+.teamList {
+  list-style-type: None;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#addPoke {
+  background-color: azure;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  border-radius: 25px;
+  color: black; 
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 0 0 0 rgb(95, 95, 95);
+  font-size: 15px;
+}
+
+#addPoke:hover{
+   box-shadow: 8px 0 0 0 rgb(95, 95, 95);
+   background-color: crimson;
+   color: azure;
+}
+
+
+
+
+
